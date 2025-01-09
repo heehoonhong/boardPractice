@@ -23,7 +23,7 @@ public class Member extends BaseTimeEntity{
     // 이름,비번,닉네임,이메일
 
     @Column(nullable = false,length=30,unique=true)
-    private String memberName;
+    private String memberName; // 아이디
 
     @Column(nullable = false,length=30,unique=true)
     private String nickname;
